@@ -19,7 +19,7 @@ class Ldde:
 
     def inserir_fim(self, valor):
         if self.quant == 0:
-            self.prim = self.ult = No(Nome, valor, None)
+            self.prim = self.ult = No(None, valor, None)
         else:
             self.ult.prox = self.ult = No(self.ult, valor, None)
         self.quant += 1
