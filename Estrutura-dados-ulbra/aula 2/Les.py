@@ -18,7 +18,7 @@ class Les:
         return self.quant == self.tam
         
         
-    def esta_vazia():
+    def esta_vazia(self):
         return self.quant == 0 
 
 
